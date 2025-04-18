@@ -35,6 +35,8 @@ header ul li a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header ul li a:hover {
@@ -45,3 +47,48 @@ header ul li input {
     padding: 5px;
     border-radius: 10px;
 }
+
+#conteudo {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vinhos {
+    width: 200px;
+    height: 400px; 
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-image: linear-gradient(#652c3e,#2a0000,#48161f);
+    color:#fff;
+    border-radius: 30px;
+}
+
+.vinhos img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preco {
+    color: #efc3cd;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
