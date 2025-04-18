@@ -35,12 +35,12 @@ header ul li a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 17px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header ul li a:hover {
-    text-decoration: underline 5px #36131f;
+    text-decoration: underline 2px #36131f;
 }
 
 header ul li input {
@@ -52,6 +52,7 @@ header ul li input {
     display: grid;
     grid-template-columns: 1fr 200px;
     gap: 20px;
+    background: #1C1C1C;
 }
 
 main {
@@ -65,7 +66,6 @@ main {
     height: 400px; 
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
     background-image: linear-gradient(#652c3e,#2a0000,#48161f);
     color:#fff;
     border-radius: 30px;
@@ -88,7 +88,60 @@ p {
 
 .preco {
     color: #efc3cd;
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 7px;
+    font-size: 18px;
 }
 
+button{
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(244, 244, 244);
+    background: rgb(109, 38, 62);
+    padding: 5px;
+    border-radius: 7px;
+    width: 120px;
+}
+
+button:hover{
+    padding: 7px;
+}
+
+aside{
+    color: #f4f4f4;
+    margin-top: 16px;
+}
+
+.filtro ul{
+    list-style: none;
+}
+
+.filtro a{
+    text-decoration: none;
+    color: #652c3e;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background: rgb(109, 38, 62);
+    padding: 40px 0px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.redesSociais ul{
+    list-style: none;
+}
+
+.redesSociais a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.direitos{
+    margin-top: 70px;
+}
